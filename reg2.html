@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background-image: url("https://images.stockcake.com/public/c/4/3/c43f85cd-52c1-4f8b-bdd0-e73b8ca3e68f.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    form{
+        background: linear-gradient(-45deg,greenyellow,dodgerblue);
+        padding: 50px;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-top: 150px;
+        margin-bottom: 150px;    
+    }
+    h2{
+        background: linear-gradient(to right,greenyellow,rgb(105, 239, 105),rgb(242, 38, 160),dodgerblue);
+        background-clip: text;
+        color: transparent;
+        font-weight: 900;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    button{
+        border-color: brown;
+        background-color: bisque;
+        color: brown;
+    }
+</style>
+<body>
+    <center>
+    <form action="audio.html">
+        <h2>Registration Form</h2>
+          <label for="lang">Lanuage</label><br><br>
+          <input type="text" name="lang" id="lang" required><br><br>
+          <label for="zipcode">Zip code</label><br><br>
+          <input type="text" name="zipcode" id="zipcode" required><br><br>
+          <label for="about">About</label><br><br>
+          <textarea id="about" rows="5" cols="30"></textarea><br><br>
+          <button type="submit">Submit</button>
+    </form>
+    </center>
+</body>
+</html>

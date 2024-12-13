@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background-image: url("https://images.stockcake.com/public/c/4/3/c43f85cd-52c1-4f8b-bdd0-e73b8ca3e68f.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    form{
+        background: linear-gradient(-45deg,greenyellow,dodgerblue);
+        padding: 50px;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-top: 150px;
+        margin-bottom: 150px;    
+    }
+    h2{
+        background: linear-gradient(to right,greenyellow,rgb(105, 239, 105),rgb(242, 38, 160),dodgerblue);
+        background-clip: text;
+        color: transparent;
+        font-weight: 900;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    button{
+        border-color: brown;
+        background-color: bisque;
+        color: brown;
+    }
+</style>
+<body>
+    <center>
+    <form action="reg2.html">
+        <h2>Registration Form</h2>
+          <label for="ph.no">Phone Number</label><br><br>
+          <input type="tel" name="ph.no" id="ph.no" required><br><br>
+          <label for="gender">Gender</label><br><br>
+          <select>
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="others">Others</option>
+          </select><br><br>
+          <button type="submit">Next</button>
+    </form>
+    
+    </center>
+</body>
+</html>
